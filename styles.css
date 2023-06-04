@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+
+
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    height: 100vh;
+}
+
+.huddle__landing__page__container {
+    padding: 2.5rem;
+}
+
+.huddle__logo {
+    width: 7rem;
+}
+
+.huddle__illustration {
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.huddle__landing__page__content {
+    margin: 3rem 0;
+    text-align: center;
+
+}
+
+.huddle__landing__page__title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.huddle__landing__page__text {
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.huddle__landing__page__button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding: 0.7rem;
+    border-radius: 2rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.189) 0.1rem 0.1rem 0.1rem;
+}
+
+.huddle__landing__page__button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+
+
+.huddle__landing__page__social__media {
+    display: flex;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.huddle__landing__page__social__media__link {
+    outline: 0.1rem solid white;
+    padding: 0.5rem;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+.icon {
+    color: white;
+}
+
+.icon:hover {
+    color: hsl(300, 69%, 71%);
+    outline: 0.1rem solid hsl(300, 69%, 71%);
+}
+
+@media (min-width: 768px) {
+
+    
+
+ body {
+    background-image: url(/images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .huddle__landing__page {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 2rem;
+ }
+
+ .huddle__landing__page__header .huddle__landing__page__illustration {
+    width: 50rem;
+}
+
+.huddle__illustration {
+    max-width: 100%;
+    margin: 3rem 0;
+    margin-bottom: 0%;
+}
+
+.huddle__landing__page__content {
+    margin: 3rem 0;
+    text-align: left;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.huddle__landing__page__social__media {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 0%;
+}
+
+
+
+
+}
